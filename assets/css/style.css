@@ -20,6 +20,11 @@ body{
 /*header*/
 header{
     background-color: black;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #C0C0C0;
 }
 h1{
     font-family: 'Oswald', sans-serif;
