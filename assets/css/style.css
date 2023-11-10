@@ -1,3 +1,5 @@
+/*goggle fonts import*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Oswald:wght@200;300;400;500;600;700&family=Satisfy&display=swap');
 /*asterisk wildcard selector to overide default styled added by the browser*/
 *{
     padding: 0;
@@ -11,6 +13,7 @@ body{
     flex-direction: column;
     /*generic projekt styles*/
     color: #C0C0C0;
+    font-family: 'Lato', sans-serif;
 
 }
 
