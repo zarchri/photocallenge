@@ -4,6 +4,15 @@
     margin: 0;
     box-sizing: border-box;
 }
+/*general styles*/
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /*generic projekt styles*/
+    color: #C0C0C0;
+
+}
 
 /*header*/
 header{
@@ -12,6 +21,8 @@ header{
 /*main*/
 main{
     background-color: bisque;
+    /*make main element take up any surplus space to push footer down*/
+    flex: 1 0 auto;
 }
 /*footer*/
 footer{
