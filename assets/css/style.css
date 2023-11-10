@@ -1,0 +1,19 @@
+/*asterisk wildcard selector to overide default styled added by the browser*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*header*/
+header{
+    background-color: black;
+}
+/*main*/
+main{
+    background-color: bisque;
+}
+/*footer*/
+footer{
+    background-color: black;
+}
