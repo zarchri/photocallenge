@@ -76,6 +76,7 @@ main{
     background-color: bisque;
     /*make main element take up any surplus space to push footer down*/
     flex: 1 0 auto;
+    margin-top: 47px;
 }
 /*footer*/
 footer{
