@@ -73,10 +73,16 @@ nav {
 }
 /*main*/
 main{
-    background-color: bisque;
+    
     /*make main element take up any surplus space to push footer down*/
     flex: 1 0 auto;
     margin-top: 47px;
+}
+/*group-section*/
+#group.photo {
+    height: 600px;
+    width: 100%;
+    background-color: url("../images/7.webp") no-repeat center center/cover;
 }
 /*footer*/
 #social-networks{
