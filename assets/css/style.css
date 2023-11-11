@@ -82,7 +82,7 @@ main{
 #group.photo {
     height: 600px;
     width: 100%;
-    background-color: url("../images/pexels-wilson-vitorino-1993689.jpg") no-repeat center center/cover;
+    background-color: url("../images/pexels-wilson-vitorino-1993689.webp") no-repeat center center/cover;
 }
 /*footer*/
 #social-networks{
