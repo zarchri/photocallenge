@@ -82,3 +82,24 @@ main{
 footer{
     background-color: black;
 }
+/*media query: tablets and larger(768 px and up)*/
+@media  screen and (min-width: 768px) {
+    /*header*/
+    nav{
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+    #menu {
+        display: flex;
+    }
+    #menu > li {
+        padding-left: 1rem;
+    }
+    .nav-toggle-label{
+        display: none;
+    }
+    
+}
