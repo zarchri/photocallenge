@@ -101,5 +101,21 @@ footer{
     .nav-toggle-label{
         display: none;
     }
+    #logo{
+        font-size: 280%;
+        line-height: 75px;
+        margin: 0 0 5rem;
+    }
+    /*main content*/
+    main{
+        /*push main content down to accommodate larger header*/
+        margin-top: 79px;
+    }
     
+}
+/*larger devices (laptops and desktop, 992px and up)*/
+@media  screen and (min-width: 992px){
+    #menu a :hover{
+        border-bottom: 1px solid #ffffff;
+    }
 }
