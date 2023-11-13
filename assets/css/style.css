@@ -82,7 +82,7 @@ main{
 #cameragirl{
     height: 600px;
     width: 100%;
-    background-color: url("../images/cameragirl.webp") no-repeat center center/cover;
+    background: url("../images/cameragirl.webp") no-repeat center center/cover;
 }
 /*footer*/
 #social-networks{
