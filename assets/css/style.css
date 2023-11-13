@@ -26,7 +26,7 @@ header{
     width: 100%;
     box-shadow: 0 2px 2px #C0C0C0;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     align-items: baseline;
 }
 header a {
@@ -79,10 +79,10 @@ main{
     margin-top: 47px;
 }
 /*group-section*/
-#group.photo {
+#cameragirl{
     height: 600px;
     width: 100%;
-    background-color: url("../images/pexels-wilson-vitorino-1993689.webp") no-repeat center center/cover;
+    background: url("../images/cameragirl.webp") no-repeat center center/cover;
 }
 /*footer*/
 #social-networks{
