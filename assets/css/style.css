@@ -83,9 +83,30 @@ main{
     height: 600px;
     width: 100%;
     background: url("../images/cameragirl.webp") no-repeat center center/cover;
+    /*animates zoom effect on loading pages*/
+    animation-name: cameragirl-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+#cameragirl-auto {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
+/*Creates the level of zoom for the cameragirl image*/
+@keyframes cameragirl-zoom {
+    from{
+        transform: scale(1);
+
+
+    }
+    to{
+transform: scale(1.1);
+    }
+    
 }
 /*sigup-form*/
-#signup {
+.signup-form {
     position: fixed;
     box-shadow: 0 2px 2px #C0C0C0;
 }
