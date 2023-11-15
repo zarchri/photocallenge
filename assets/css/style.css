@@ -233,6 +233,9 @@ hr{
     clear: both;
     margin-bottom: 50px;
 }
+#certikate{
+    height: 600px;
+}
 .right-about-heading{
     width: 60%;
     float: left;
