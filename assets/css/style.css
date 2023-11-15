@@ -44,7 +44,7 @@ h1{
     font-size: 4px;
     list-style-type: none;
 }
-#menu > li{
+#menu > i{
     margin-bottom: 1em;
 }
 .active {
@@ -83,6 +83,11 @@ main{
     height: 600px;
     width: 100%;
     background: url("../images/cameragirl.webp") no-repeat center center/cover;
+}
+/*sigup-form*/
+#signup {
+    position: fixed;
+    box-shadow: 0 2px 2px #C0C0C0;
 }
 /*footer*/
 #social-networks{
