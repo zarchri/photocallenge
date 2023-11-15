@@ -16,7 +16,19 @@ body{
     font-family: 'Lato', sans-serif;
 
 }
+/*headings and logo*/
+#h1, h2{
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #C0C0C0;
+}
 
+#logo {
+    float: left;
+    font-size: 280%;
+    margin-left: 30px;
+}
 /*header*/
 header{
     background-color: black;
@@ -37,7 +49,7 @@ h1{
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #252525;
+    color: #C0C0C0;
 }
 #menu{
     font-size: 110%;
@@ -84,7 +96,7 @@ main{
 
 }
 #cameragirl{
-    height: 600px;
+    height: 500px;
     width: 100%;
     background: url("../images/cameragirl.webp") no-repeat center center/cover;
     /*animates zoom effect on loading pages*/
@@ -94,7 +106,7 @@ main{
 }
 
 #cameragirl-outer {
-    height: 350px;
+    height: 500px;
     width: 100%;
     overflow: hidden;
 
@@ -112,7 +124,7 @@ transform: scale(1.1);
     }
     
 }
-/*sigup-form*/
+/*signup-form*/
 .signup-form {
     position: fixed;
     box-shadow: 0 2px 2px #C0C0C0;
@@ -187,4 +199,25 @@ transform: scale(1.1);
 
     position: absolute;
 
+}
+/*Courses*/
+#courses {
+    height: 600px;
+}
+#left-about{
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+    background-color: blue;
+}
+#right-about{
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+    background-color: silver;
+}
+#center-about{
+    width: 33%;
+    margin: 0 auto;
+    background-color: green;
 }
