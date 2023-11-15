@@ -79,6 +79,10 @@ main{
     margin-top: 47px;
 }
 /*group-section*/
+#cover-text, #cover-text h2{
+    color: #fff;
+
+}
 #cameragirl{
     height: 600px;
     width: 100%;
@@ -88,10 +92,13 @@ main{
     animation-duration: 5s;
     animation-fill-mode: forwards;
 }
-#cameragirl-auto {
+
+#cameragirl-outer {
     height: 600px;
     width: 100%;
     overflow: hidden;
+    
+    position: relative;
 }
 /*Creates the level of zoom for the cameragirl image*/
 @keyframes cameragirl-zoom {
@@ -160,4 +167,24 @@ transform: scale(1.1);
     #menu a :hover{
         border-bottom: 1px solid #ffffff;
     }
+}
+#cover-text {
+    font-size: 130%;
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 300px;
+    height: 200px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(192,192,192, .7);
+
+    bottom: 30px;
+    right: 150px;
+
+    position: absolute;
+
 }
