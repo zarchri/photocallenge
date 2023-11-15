@@ -94,10 +94,10 @@ main{
 }
 
 #cameragirl-outer {
-    height: 600px;
+    height: 350px;
     width: 100%;
     overflow: hidden;
-    
+
     position: relative;
 }
 /*Creates the level of zoom for the cameragirl image*/
