@@ -141,7 +141,7 @@ transform: scale(1.1);
 }
 /*signup-form*/
 .signup-form {
-    position: fixed;
+    position: center;
     box-shadow: 0 2px 2px #C0C0C0;
 }
 /*footer*/
@@ -343,3 +343,10 @@ overflow: hidden;
     box-sizing: border-box;
 }
     
+.form-section {
+    clear: left;
+    background: url("../images/group-photo.webp");
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+}
