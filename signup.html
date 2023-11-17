@@ -34,15 +34,16 @@
         <nav>
             <ul id="meny">
                 <li><a href="index.html" >Home</a></li>
-                <li><a href="gallery.html">Courses</a></li>
-                <li><a href="signup.html" class="active">Singup</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="signup.html" class="active">Signup</a></li>
             </ul>
         </nav>
     </header>
     <!--main-->
     <main>
-        <section id="form-section">
-            <form class="form-section" id="Signup-form" method="POST" action="https://formdump.codeinstitute.net">
+        
+        <section class="form-section">
+            <form id="Signup-form" method="POST" action="https://formdump.codeinstitute.net">
                 <h2><i class="fa-solid fa-heartbeat"></i> Let's get you signed up!</h2>
                 <label for="first_name">First Name</label>
                 <input type="text" name="first_name" id="first_name" class="text-input" required>
@@ -55,32 +56,39 @@
                 <br>
                 <div class="radio-buttons">
                     <div>
-                        <label for="beginner">Beginner</label>
                         <input type="radio" name="selected course" id="beginner" value="beginner" required checked>
+                        <label for="beginner">Beginner</label>
+                        
                     </div>
                   
                     <div>
-                        <label for="photoshop">Photoshop</label>
                         <input type="radio" name="selected course" id="photoshop" value="photoshop" required checked>
+                        <label for="photoshop">Photoshop</label>
+                       
             
                     </div>
                     <div>
-                        <label for="Travel USA">Travel USA</label>
                         <input type="radio" name="selected course" id="usa" value="usa" required checked>
+                        <label for="USA">Travel USA</label>
+                        
                     </div>
                     <div>
-                        <label for="Travel Afrika">Travel Afrika</label>
                         <input type="radio" name="selected course" id="afrika" value="afrika" required checked>
+                        <label for="Afrika">Travel Afrika</label>
+                       
                     </div>
                     <div>
-                        <label for="Travel Antarktis">Travel Antarktis</label>
                         <input type="radio" name="selected course" id="antarktis" value="antarktis" required checked>
+                        <label for="Antarktis">Travel Antarktis</label>
+                        
                     </div>
                     
                 </div>
                 <button type="submit" class="join-button">send</button>
             </form>
+        
                     </section>
+                    
     </main>
 
     <!--footer-->

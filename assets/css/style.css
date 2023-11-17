@@ -93,7 +93,7 @@ h1{
 
 }
 .nav li {
-    display: inline-block;
+    
     font-size: 20px;
     padding: 20px;
 }
@@ -147,13 +147,6 @@ main{
 transform: scale(1.1);
     }
     
-}
-/*signup-form*/
-#signup-form {
-    
-    text-align: center;
-    box-shadow: 0 2px 2px #C0C0C0;
- 
 }
 
 
@@ -258,29 +251,21 @@ transform: scale(1.1);
 
 /*for larger and smaller screens size from 1200px wide and down*/
 @media screen and(min-width:1200px){
-    #club-ethos{
-        width: 65%;
-        height: 1200px;
-        margin: 0 auto;
-    }
-    #welcome{
-        padding: 30px 0;
-        margin: 0;
-    }
-    #left-about, #right-about{
-        width: 100%;
-        float: left;
-        padding: 0;
-    }
-    #center-about{
-        clear: both;
-        width: 100%;
-        float: left;
-        padding: 0;
-    }
-    hr{
-        display: none;
-    }
+   #menu{
+    float: left;
+    clear: left;
+    line-height: 25px;
+    margin-bottom: 20px;
+   }
+   #cover-text{
+    left: 0;
+   }
+   #club-ethos{
+    width: 90%;
+    margin: 0 auto;
+    height: 1200px;
+   }
+
 } 
 /*Event Times*/
 #times{
@@ -302,26 +287,71 @@ overflow: hidden;
     border: 2px solid white;
     box-sizing: border-box;
 }
-    
+    /*formsection*/
+
 .form-section {
     clear: left;
-    background: url("../images/group-photo.webp");
-    background-size: cover;
+    background: url(../images/group-photo.webp) no-repeat center center/cover;
+    background-size: contain;
     background-position: center;
     height: 900px;
-    text-align: center;
-    box-shadow: 0 2px 2px #C0C0C0;
-  
 }
+
+.signup-form {
+    margin: 150px 10% 0 0;
+    color: #fff;
+    background-color: #5C8374;
+    max-width: 400px;
+    position: absolute;
+    left: 10%;
+    padding: 30px;
+}
+
+.signup-form > h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+}
+
+.text-input {
+    background: #3a3a3a;
+    color: #fafafa;
+    width: 35%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+}
+
+
+.text-input:hover {
+    border-color: #5C8374;
+}
+
+.join-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #000000;
+    color: #fafafa;
+    display: block;
+}
+
+.join-button:hover {
+    background-color: #000000;
+    color: #5C8374;
+}
+
    
 /*For medium screen size 950px and down*/
-@media screen and (max-width: 950px){
-    #menu{
-        clear: left;
-        float: left;
-        margin-left: 30px;
-        margin-bottom: 20px;
-        line-height: 25px;
+@media screen and (max-width: 800px){
+  #photos{
+    column-count: 2;
 
-    }
+  }
+  #menu > li{
+    display: none;
+  }
+ 
 }
