@@ -53,7 +53,7 @@ h1{
 }
 #menu{
     font-size: 110%;
-    font-size: 4px;
+    letter-spacing: 4px;
     
 }
 #menu, #logo{
@@ -68,9 +68,8 @@ h1{
     text-decoration: none;
     color: inherit;
 }
-#menu > i{
-    margin-bottom: 1em;
-}
+
+
 #menu a :hover{
     border-bottom: 1px solid #ffffff;
 }
@@ -141,10 +140,14 @@ transform: scale(1.1);
     
 }
 /*signup-form*/
-.signup-form {
-    position: center;
+#signup-form {
+    
+    text-align: center;
     box-shadow: 0 2px 2px #C0C0C0;
+ 
 }
+
+
 /*footer*/
 #social-networks{
     text-align: center;
@@ -297,4 +300,8 @@ overflow: hidden;
     background-size: cover;
     background-position: center;
     height: 900px;
+    text-align: center;
+    box-shadow: 0 2px 2px #C0C0C0;
+  
 }
+   
