@@ -28,6 +28,7 @@ body{
     float: left;
     font-size: 280%;
     margin-left: 30px;
+    text-align: center;
 }
 /*header*/
 header{
@@ -55,14 +56,15 @@ h1{
     font-size: 110%;
     letter-spacing: 4px;
     
+    
 }
 #menu, #logo{
     line-height: 75px;
 }
 #menu li {
     float: right;
-    list-style-type: none;
-    margin-right: 30px;
+     margin-right: 30px;
+     list-style-type: none;
 }
 #menu a{
     text-decoration: none;
@@ -86,7 +88,14 @@ h1{
     box-shadow: 0 2px 2px #C0C0C0;
     display: none;
     top: 100%;
+    
+    
 
+}
+.nav li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
 }
 /*nav-toggle*/
 #nav-toggle:checked~nav{
@@ -315,6 +324,4 @@ overflow: hidden;
         line-height: 25px;
 
     }
-}
-    
 }
