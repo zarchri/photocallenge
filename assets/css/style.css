@@ -21,7 +21,7 @@ body{
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: #C0C0C0;
+    color: #ffffff;
 }
 
 #logo {
@@ -50,7 +50,7 @@ h1{
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #C0C0C0;
+    color: #5C8374;
 }
 #menu{
     font-size: 110%;
@@ -73,10 +73,10 @@ h1{
 
 
 #menu a :hover{
-    border-bottom: 1px solid #ffffff;
+    border-bottom: 1px solid #5C8374;
 }
 .active {
-    border-bottom: 1px solid #ffffff;
+    border-bottom: 1px solid #5C8374;
 }
 /*navbar styles with dropdown toggle*/
 .nav {
