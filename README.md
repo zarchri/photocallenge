@@ -35,11 +35,11 @@ I have used #292929 as the overlay used over the sites background image.
 I have used #5C8374 for the border-hover effect of the formsection.
 
 I have used #ffffff in the input-text in the formsection.)
-  * [Typography](Google Fonts was used to import the chosen fonts for use in the site.
+  * [Typography](Google Fonts was used to import the chosen fonts for use in the site.)
 
 For the Page Title I have used the google font Oswald. I chooce this font because I want A font who clearly Shows the title on the page.
 
-For the body of the page I have used the google font Lato. Lato is a sans-serif font like the mosy website use, it is a clena and easy to read.
+For the body of the page I have used the google font Lato. Lato is a sans-serif font like the mosy website use, it is a clean and easy to read.
 
   * [Imagery](#imagery)
   * [Wireframes](#wireframes)
