@@ -223,7 +223,7 @@ transform: scale(1.1);
 }
 /*Courses*/
 #courses{
-    position: center;
+    position: absolute;
     text-align: center;
     color: #C0C0C0;
     background-color: #5C8374;
