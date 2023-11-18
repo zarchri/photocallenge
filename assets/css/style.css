@@ -68,7 +68,7 @@ h1{
 }
 #menu a{
     text-decoration: none;
-    color: inherit;
+    color: #5C8374;
 }
 
 
@@ -313,13 +313,16 @@ overflow: hidden;
 }
 
 .text-input {
-    background: #3a3a3a;
+    background: #5C8374;
     color: #fafafa;
     width: 35%;
     height: 25px;
     margin: 5px 0 20px 0;
     border: 1px solid #fafafa;
     border-radius: 2px;
+}
+.fname{
+    color: #000000;
 }
 
 
