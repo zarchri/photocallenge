@@ -195,12 +195,7 @@ transform: scale(1.1);
     }
     
 }
-/*larger devices (laptops and desktop, 992px and up)*/
-@media  screen and (min-width: 992px){
-    #menu a :hover{
-        border-bottom: 1px solid #ffffff;
-    }
-}
+
 #cover-text {
     font-size: 130%;
     font-family: Oswald, sans-serif;
@@ -223,7 +218,7 @@ transform: scale(1.1);
 }
 /*Courses*/
 #courses{
-    position: absolute;
+    
     text-align: center;
     color: #C0C0C0;
     background-color: #5C8374;
@@ -247,46 +242,9 @@ transform: scale(1.1);
 #photos > img{
     width: 100%;
 }
-/*media queries*/
 
-/*for larger and smaller screens size from 1200px wide and down*/
-@media screen and(min-width:1200px){
-   #menu{
-    float: left;
-    clear: left;
-    line-height: 25px;
-    margin-bottom: 20px;
-   }
-   #cover-text{
-    left: 0;
-   }
-   #club-ethos{
-    width: 90%;
-    margin: 0 auto;
-    height: 1200px;
-   }
 
-} 
-/*Event Times*/
-#times{
-background-color: black;
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center;
-width: 100%;
-overflow: hidden;
-}
-#times div{
-    color: #fafafa;
-    background-color: rgba(0,0,0, .6);
-    width: 20%;
-    height: 300px;
-    float: left;
-    padding: 30px 0 0 10px;
-    text-align: center;
-    border: 2px solid white;
-    box-sizing: border-box;
-}
+
     /*formsection*/
 
 .form-section {
@@ -313,7 +271,7 @@ overflow: hidden;
 }
 
 .text-input {
-    background: #5C8374;
+    background: #000000;
     color: #fafafa;
     width: 35%;
     height: 25px;
@@ -345,7 +303,14 @@ overflow: hidden;
     background-color: #000000;
     color: #5C8374;
 }
+/*media queries*/
 
+/*larger devices (laptops and desktop, 992px and up)*/
+@media  screen and (min-width: 992px){
+    #menu a :hover{
+        border-bottom: 1px solid #ffffff;
+    }
+}
    
 /*For medium screen size 950px and down*/
 @media screen and (max-width: 800px){
@@ -358,3 +323,27 @@ overflow: hidden;
   }
  
 }
+
+
+/*for larger and smaller screens size from 1200px wide and down*/
+@media screen and(min-width:1200px){
+
+    #logo{
+        font-size: 75%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+    #menu{
+     float: left;
+     clear: left;
+     line-height: 25px;
+     margin-bottom: 20px;
+    
+    }
+    #cover-text{
+     left: 1;
+     position: absolute;
+     float: right;
+    }
+  
+ } 
