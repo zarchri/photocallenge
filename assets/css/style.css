@@ -33,14 +33,14 @@ body{
 /*header*/
 header{
     background-color: black;
-    padding: 0 1rem;
+    padding: 20px;
     position: fixed;
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px #C0C0C0;
     display: flex;
     justify-content:space-between;
-    align-items: baseline;
+    align-items: center;
 }
 header a {
     text-decoration: none;
@@ -55,6 +55,7 @@ h1{
 #menu{
     font-size: 110%;
     letter-spacing: 4px;
+    text-align: right;
     
     
 }
@@ -117,6 +118,7 @@ main{
 /*group-section*/
 #cover-text, #cover-text h2{
     color: #fff;
+
 
 }
 #cameragirl{
@@ -318,32 +320,48 @@ transform: scale(1.1);
     column-count: 2;
 
   }
-  #menu > li{
+  #menu li{
     display: none;
   }
+ 
  
 }
 
 
 /*for larger and smaller screens size from 1200px wide and down*/
-@media screen and(min-width:1200px){
-
+@media (max-width: 767px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
     #logo{
-        font-size: 75%;
-        line-height: 75px;
-        margin: 0 0.5rem;
+        font-size: 25px;
+        width: 90%;
     }
-    #menu{
-     float: left;
-     clear: left;
-     line-height: 25px;
-     margin-bottom: 20px;
+
+    nav {
+        margin-top: 10px;
+    }
+
+    ul {
+        padding: 0;
+    }
+
+    li {
+        list-style: none;
+        margin-bottom: 10px;
+    }
+
+    menu{
+        position: fixed;  
+     }
     
-    }
-    #cover-text{
-     left: 2;
-     position: absolute;
-     float: right;
-    }
-  
- } 
+     #cover-text, #cover-text h2{
+         font-size: 16px;
+         float: inline-start;
+         
+         
+         }
+         #cover-text h2 {
+            margin-right: auto;
+}
