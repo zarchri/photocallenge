@@ -9,9 +9,7 @@ Callenge your self in our photocourses
 We have courses both for new beginner and for you who have insperience and want width your wievs. We have also a photocourse for yoy who wants learn you redigering.
 Our phototravels is very popular.
 
-[YouGov](https://yougov.co.uk/topics/lifestyle/explore/activity/Pub_quizzes) show that 98% of people surveyed have heard of a pub quiz, and are rated as the 19th most popular social activity.
 
-During lockdowns pub quizzes remained popular - they just changed format to become virtual. This gave me the idea of creating a quiz site that would feel like a pub quiz, where users could play on their own to improve their general knowledge anywhere and at any time.
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/kera-cudmore/TheQuizArms?color=red&style=for-the-badge)
 ![GitHub contributors](https://img.shields.io/github/contributors/kera-cudmore/TheQuizArms?color=orange&style=for-the-badge)
@@ -47,7 +45,7 @@ For the body of the page I have used the google font Lato. Lato is a sans-serif 
   -In the fornmsection I chooce this picture because I want show thee feeling to photographs togheter and get inspiration from each other.)
 
   * [Wireframes](#wireframes)
-  * [Features](The website is comprised of a home page, a games page, a high scores page, a 404 error page & a 500 error page.
+  * [Features](The website is comprised of a home page, a gallery page, a signup page, a 404 error page & a 500 error page.
 
 All Pages on the website are responsive and have:
 
@@ -58,9 +56,9 @@ favicon
 The title of the site at the top of every page. This title also acts as a link back to the home page. The title are: Photochallenge
 
 Every page will display a custom cursor when on a button. This feature is not available on mobile touch devices.)
-    * [The Home Page](#the-home-page)
-    * [The Game Page](#the-game-page)
-    * [The High Scores Page](#the-high-scores-page)
+    * [The Home Page](#https://8000-zarchri-photocallenge-m87xix7nlm4.ws-eu106.gitpod.io/index.html)
+    * [The Gallery Page](#https://8000-zarchri-photocallenge-m87xix7nlm4.ws-eu106.gitpod.io/gallery.html)
+    * [The Signup Page](#https://8000-zarchri-photocallenge-m87xix7nlm4.ws-eu106.gitpod.io/signup.html)
     * [The 404 Error Page](#the-404-error-page)
     * [Future Implementations](#future-implementations)
   * [Accessibility](#accessibility)
@@ -94,18 +92,19 @@ Every page will display a custom cursor when on a button. This feature is not av
 
 #### First Time Visitor Goals
 
-* I want to take part in a pub quiz online and improve my general knowledge. I want to be able to play at any time, anywhere.
-* I want the site to be responsive to my device.
-* I want the site to be easy to navigate.
+* I want to explore my photographs skills and gain more inspiration and learn the basics of editing
+* I want to meet new people with the same interest in photography like me
+* I have recently developed an interest in photography and want to learn the basics
+
 
 #### Returning Visitor Goals
 
-* I want to be able to choose a level of difficulty that I feel is appropriate for me, based on my experience from my first visit to the site.
+* I want to learn more editing
 
 #### Frequent Visitor Goals
 
-* I want to be able to adjust the difficulty level to keep improving my knowledge.
-* I want to be able to log my high scores to see how I am performing.
+* I want to grow in my photography.
+* I want to broaden my horizons and expand my portfolio
 
 - - -
 
@@ -113,7 +112,7 @@ Every page will display a custom cursor when on a button. This feature is not av
 
 ### Colour Scheme
 
-As the pages of the site have a background image, I wanted to keep the colour scheme used on the site quite small so as to not overwhelm users. Red and green  are very typical colours in traditional British public houses, with the red & green used for upholstery.
+From the befinning I wanted most of a black theme but only chose black and white would be little booring so I decided to change the white color to lightgreen.
 
 In my css file I have used black and lightgreen color
 
@@ -138,7 +137,8 @@ Google Fonts was used to import the chosen fonts for use in the site.
 
 ### Imagery
 
-I use a image who asccioted with photo so I chooce a girl with a camera.
+
+I want use a image who associates with photo so I chooce a girl with a camera.
 
 ### Wireframes
 
@@ -162,9 +162,7 @@ All Pages on the website are responsive and have:
 * The title of the site at the top of every page. This title also acts as a link back to the home page.
   ![Photoshop](https://8000-zarchri-photocallenge-m87xix7nlm4.ws-eu106.gitpod.io/index.html)
 
-* Every page will display a custom cursor when on a button. This feature is not available on mobile touch devices.
 
-![Custom Cursor](documentation/features/custom-cursor.gif)
 
 In all page you can fint in the footer contact information: adress, phone, email and social media links
 
@@ -176,23 +174,13 @@ The home page of Photochallenge displays the sites name as a title and then a co
 
 
 
-![Modal open image](documentation/features/modal.png)
-
-The play button will redirect the user to the game page to select the difficulty of their quiz and the high Scores button redirects the user to the high scores page.
-
 #### The Gallery Page
 
 The gallery page displays the sites name as a title. This also acts as a link back to the home page. Here can you see photographs from the different country we have travell to and what photoredigering can do, this page is for little inspirations.
 
-![Image of the gallery page difficulty selection buttons](https://8000-zarchri-photocallenge-m87xix7nlm4.ws-eu106.gitpod.io/gallery.html)
+![Image of the gallery page ](https://8000-zarchri-photocallenge-m87xix7nlm4.ws-eu106.gitpod.io/gallery.html)
 
 
-
-![Image of quiz area](documentation/features/quiz.png)
-
-Once a user has answered the 15 questions they will be taken to the end of the game which will allow them to enter their team name and submit it to be entered onto the high scores page if it is in the top 10 scores. The submit button is disabled by default to prevent the user from submitting without a team name. This is made clear to the user as the cursor will show not allowed when hovered over the submit button.
-
-![End of game](documentation/features/end.png)
 
 #### The Signup Page
 
@@ -228,19 +216,10 @@ I have been mindful during coding to ensure that the website is as accessible fr
 
 * Using semantic HTML.
 * Using a hover state on all buttons on the site to make it clear to the user if they are hovering over a button.
-* Choosing a sans serif font for the site - these fonts are suitable for people with dyslexia.
+* Choosing a sans serif font for the site 
+-easy for everyone to read.
 * Ensuring that there is a sufficient colour contrast throughout the site.
 
-![contrast button](documentation/contrast-btn.png) ![Contrast button hover](documentation/contrast-btn-hover.png) ![contrast text](documentation/contrast-text.png)
-
-As the site relies on colour to display to the user whether an answer is correct or incorrect, I was interested to see what this would look like for someone with red/green colour blindness. I used the chrome extension [Web Disability Simulator](https://chrome.google.com/webstore/detail/web-disability-simulator/olioanlbgbpmdlgjnnampnnlohigkjla) to be able to see what someone with red/green colour blindness would see.
-
-In a future implementation I think it would be a great accessibility feature to also add a symbol such as a tick or cross on the answer button to enable people who are colour blind to also be able to access the quiz easier. Each of the images below have whether they are correct/incorrect in the name. Can you tell which one is which?
-
-![Colour blindness (red/green) correct answer](documentation/rg-colour-blind-correct.png)
-![Colour blindness (red/green) incorrect answer](documentation/rg-colour-blind-incorrect.png)
-
-- - -
 
 ## Technologies Used
 
@@ -276,11 +255,6 @@ Load down images
 * [Shields.io](https://shields.io/) To add badges to the README
 
 
-
-
-
-
-
 * [Webpage Spell-Check](https://chrome.google.com/webstore/detail/webpage-spell-check/mgdhaoimpabdhmacaclbbjddhngchjik/related) - a google chrome extension that allows you to spell check your webpage. Used to check the site and the readme for spelling errors.
 
 - - -
@@ -289,12 +263,12 @@ Load down images
 
 ### Deployment
 
-The site is deployed using GitHub Pages - [The Quiz Arms](https://kera-cudmore.github.io/TheQuizArms/).
+The site is deployed using GitHub Pages - [Photochallenge](https://github.com/zarchri/photocallenge).
 
 To Deploy the site using GitHub Pages:
 
 1. Login (or signup) to Github.
-2. Go to the repository for this project, [kera-cudmore/TheQuizArms](https://github.com/kera-cudmore/TheQuizArms).
+2. Go to the repository for this project, [zarchri/photochallenge](https://github.com/zarchri/photocallenge).
 3. Click the settings button.
 4. Select pages in the left hand navigation menu.
 5. From the source dropdown select main branch and press save.
@@ -307,7 +281,7 @@ To Deploy the site using GitHub Pages:
 To fork the repository:
 
 1. Log in (or sign up) to Github.
-2. Go to the repository for this project, [kera-cudmore/TheQuizArms](https://github.com/kera-cudmore/TheQuizArms)
+2. Go to the repository for this project, [zarchri/photocallenge](https://github.com/zarchri/photocallenge)
 3. Click the Fork button in the top right corner.
 
 #### How to Clone
@@ -315,7 +289,7 @@ To fork the repository:
 To clone the repository:
 
 1. Log in (or sign up) to GitHub.
-2. Go to the repository for this project, [kera-cudmore/TheQuizArms](https://github.com/kera-cudmore/TheQuizArms)
+2. Go to the repository for this project, [zarchri/photocallenge](https://github.com/zarchri/photocallenge)
 3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
 4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
 5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
@@ -356,38 +330,46 @@ Please refer to [TESTING.md](TESTING.md) file for all testing carried out.
 
 ### Code Used
 
-* I used [this You Tube tutorial](https://www.youtube.com/watch?v=XH5OW46yO8I) to learn how to create a modal for the how to play section.
 
-* As the API I used for the questions declared the correct answer and then had an array of incorrect answers, I had to find a way to shuffle the answers together so that the correct answer wouldn't always appear on the same button. Research led me to the Fisher-Yates Shuffle. Other methods of shuffling can favour some items in the array more than others, however the Fisher Yates Shuffle allows for a more even spread of probability of the answer being placed on each button. I used the following [YouTube tutorial](https://www.youtube.com/watch?v=eATLMjs7y4s&list=PL5egNEXQTWmFHAoWFVRLNAvD-9zzyWVxA&index=3) to further adapt the shuffle I had researched on W3Schools to work with the data I had.
+I research in W3school after the code I needed and in the videos in the code institute course.
 
-As the JavaScript modules of the Code Institute Diploma did not cover local storage, I had to do a bit of research into this topic myself in order to set up the high scores section of my site.
 
-* I used this [video tutorial](https://www.youtube.com/watch?v=DFhmNLKwwGw&list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx&index=9) on YouTube by [James Q Quick](https://www.youtube.com/channel/UC-T8W79DN6PBnzomelvqJYw) which taught me to save the team name and score to an object, that would then be saved into an array in local storage. It also explained how to sort the items in the array into descending score order, and then to splice the array, I have used the MAX_HIGH_SCORES as my point to splice.
 
-* I used this [video tutorial](https://www.youtube.com/watch?v=jfOv18lCMmw&list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx&index=10) on YouTube by [James Q Quick](https://www.youtube.com/channel/UC-T8W79DN6PBnzomelvqJYw) to learn how to insert the local storage into the high scores page.
+
+
+
 
 ### Content
 
-All questions for my site were pulled from [The Open Trivia Database](https://opentdb.com/) using their API.
 
-All other content for the site, such as introduction messages and instructions were written by myself.
+All content are written from my self
 
 ### Media
 
-[Page background image of a pub](https://pixabay.com/photos/bar-pub-cafe-establishment-stools-2209813/)
+#homepage
+
+[boat ](https://www.pexels.com/sv-se/foto/stad-hus-vatten-byggnader-586687/)
+
+#Signup page
+[boat ](https://www.pexels.com/sv-se/foto/stad-hus-vatten-byggnader-586687/)
+
+#gallery 
+
+[icebear ](https://www.pexels.com/sv-se/foto/rovdjur-djurfotografi-svartvit-grongoling-598966/)
+
+[seal ](https://www.pexels.com/sv-se/foto/23087/)
+
+[teenagergirl ](https://www.pexels.com/sv-se/foto)
+
+[africawoman ](https://www.pexels.com/sv-se/foto/svartvitt-mode-person-kvinna-2469823/)
+
+[boat ](https://www.pexels.com/sv-se/foto/stad-hus-vatten-byggnader-586687/)
+
+[boa ](https://www.pexels.com/sv-se/foto/stad-hus-vatten-byggnader-586687/)
+
 
 ### Acknowledgments
 
 I would like to acknowledge the following people:
 
-* Adegbenga  Adeye - My Code Institute Mentor.
-
-* Bim Williams - For being a great sounding board for me when I faced issues with moving onto the next question in the quiz, and for helping solve the issue faced with the HTML entity characters in the answer buttons.
-
-* [Dave Horrocks](https://github.com/daveyjh) - For taking the time to walk through my code with me when I was struggling with adding event listeners.
-
-* [Emanuel Silva](https://github.com/manni8436) - For cheering me on when I was struggling with the JavaScript, and for testing the site.
-
-* [Abi Harrison](https://github.com/Abibubble) - For being a great rubber duck and helping debug, helping to test the site and for sharing her knowledge on accessibility.
-
-* The Code Institute Slack channel Peer Code Review - Thank you to everyone who took the time to play the quiz and look over the code.
+* Jubril- My Code Institute Mentor.
