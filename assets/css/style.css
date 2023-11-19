@@ -272,11 +272,11 @@ transform: scale(1.1);
 
 .text-input {
     background: #000000;
-    color: #fafafa;
+    color: #ffffff;
     width: 35%;
     height: 25px;
     margin: 5px 0 20px 0;
-    border: 1px solid #fafafa;
+    border: 1px solid #ffffff;
     border-radius: 2px;
 }
 .fname{
@@ -341,7 +341,7 @@ transform: scale(1.1);
     
     }
     #cover-text{
-     left: 1;
+     left: 2;
      position: absolute;
      float: right;
     }
