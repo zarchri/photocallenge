@@ -332,6 +332,8 @@ transform: scale(1.1);
         margin-left: auto; /* Align menu to the right */
     }
 
+ 
+    }
     ul {
         padding: 0;
         display: flex;
@@ -342,7 +344,7 @@ transform: scale(1.1);
         list-style: none;
         margin-left: 20px; /* Adjust space between menu items */
     }
-}
+
 /*For medium screen size 950px and down*/
 @media screen and (max-width: 800px){
   #photos{
@@ -365,14 +367,21 @@ transform: scale(1.1);
         flex-direction: column;
         align-items: flex-start;
         height: auto;
+        height: 15%;
     }
     #logo{
         font-size: 25px;
         width: 90%;
+        margin-right: auto;
+    }
+
+    .nav-toggle-label{
+        margin-left: auto;
     }
 
     nav {
         margin-top: 10px;
+        height: 10%;
     }
 
     h1{
