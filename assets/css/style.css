@@ -251,7 +251,7 @@ transform: scale(1.1);
 
 .form-section {
     clear: left;
-    background: url(../images/group-photo.webp) no-repeat center center/cover;
+    background: url(../image/group-photo.jpg) no-repeat center center/cover;
     background-size: contain;
     background-position: center;
     height: 900px;

@@ -347,6 +347,8 @@ All content are written from my self
 
 [africawoman ](docs/readme_images/africangirl.png)
 
+![Alt text](docs/readme_images/africangirl.png "Optional title")
+
 [boat ](docs/readme_images/pexels-david-bartus-586687.webp)
 
 
