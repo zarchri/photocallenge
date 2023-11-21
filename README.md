@@ -170,7 +170,7 @@ In all page you can fint in the footer contact information: adress, phone, email
 
 The home page of Photochallenge displays the sites name as a title and then a container which holds information about the the courses we hold about what they are container, place, time and amount.
 
-![Home page image](https://8000-zarchri-photocallenge-m87xix7nlm4.ws-eu106.gitpod.io/index.html)
+![Home page image](docs/readme_images/homepage.png "Home page")
 
 
 
@@ -178,7 +178,7 @@ The home page of Photochallenge displays the sites name as a title and then a co
 
 The gallery page displays the sites name as a title. This also acts as a link back to the home page. Here can you see photographs from the different country we have travell to and what photoredigering can do, this page is for little inspirations.
 
-![Image of the gallery page ](https://8000-zarchri-photocallenge-m87xix7nlm4.ws-eu106.gitpod.io/gallery.html)
+![Image of the gallery page ](docs/readme_images/gallerypage.png "gallery page")
 
 
 
@@ -187,7 +187,7 @@ The gallery page displays the sites name as a title. This also acts as a link ba
 The Signup page displays the sites name as a title. This also acts as a link back to the home page. In this page can you sign you up to our different courses. 
 IN the background have I chooce  a image with happy teenager with a camera in a picknic in the nature.
 
-![Signup Page Image](https://8000-zarchri-photocallenge-m87xix7nlm4.ws-eu106.gitpod.io/signup.html)
+![Signup Page Image](docs/readme_images/group-photo.jpg "signup page")
 
 #### The 404 Error Page
 
@@ -333,29 +333,29 @@ All content are written from my self
 
 #homepage
 
-[women with camera](docs/readme_images/cameragirl.webp)
+![women with camera](docs/readme_images/cameragirl.webp "women with camera")
 
 
 
 #gallery 
 
-[icebear ](docs/readme_images/icebear.jpg)
+![icebear ](docs/readme_images/icebear.jpg "icebear")
 
-[seal ](docs/readme_images/pexels-skitterphoto-23087.jpg)
+![seal ](docs/readme_images/pexels-skitterphoto-23087.jpg "seal")
 
-[teenagergirl ](docs/readme_images/teenagergirl.jpg)
+![teenagergirl ](docs/readme_images/teenagergirl.jpg "teenagergirl")
 
-[africawoman ](docs/readme_images/africangirl.png)
 
-![Alt text](docs/readme_images/africangirl.png "Optional title")
 
-[boat ](docs/readme_images/pexels-david-bartus-586687.webp)
+![African women](docs/readme_images/africangirl.png "african women")
+
+![boat](docs/readme_images/pexels-david-bartus-586687.webp "boat")
 
 
 
 
 #Signup page
-[group](docs/readme_images/group-photo.jpg)
+![group](docs/readme_images/group-photo.jpg "group")
 ### Acknowledgments
 
 I would like to acknowledge the following people:
@@ -365,3 +365,5 @@ I would like to acknowledge the following people:
 * Friend and famyly for their support
 
 * member of slack comunity who have helped me when I struggled
+
+* Tutor-team- who have been a realy good help

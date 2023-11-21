@@ -166,37 +166,6 @@ transform: scale(1.1);
     padding: 5%;
     color: #3a3a3a;
 }
-/*media query: tablets and larger(768 px and up)*/
-@media  screen and (min-width: 768px) {
-    /*header*/
-    nav{
-        display: block;
-        position: relative;
-        box-shadow: none;
-        width: fit-content;
-        padding-right: 1rem;
-    }
-    #menu {
-        display: flex;
-    }
-    #menu > li {
-        padding-left: 1rem;
-    }
-    .nav-toggle-label{
-        display: none;
-    }
-    #logo{
-        font-size: 280%;
-        line-height: 75px;
-        margin: 0 0.5rem;
-    }
-    /*main content*/
-    main{
-        /*push main content down to accommodate larger header*/
-        margin-top: 79px;
-    }
-    
-}
 
 #cover-text {
     font-size: 130%;
@@ -251,7 +220,7 @@ transform: scale(1.1);
 
 .form-section {
     clear: left;
-    background: url(../image/group-photo.jpg) no-repeat center center/cover;
+    background: url(../images/group-photo.jpg) no-repeat center center/cover;
     background-size: contain;
     background-position: center;
     height: 900px;
@@ -313,7 +282,7 @@ transform: scale(1.1);
         border-bottom: 1px solid #ffffff;
     }
     #photos{
-        width: 100%;
+        width: 185%;
     }
 }
  
@@ -344,6 +313,39 @@ transform: scale(1.1);
         list-style: none;
         margin-left: 20px; /* Adjust space between menu items */
     }
+
+    /*media query: tablets and larger(768 px and up)*/
+@media  screen and (min-width: 768px) {
+    /*header*/
+    nav{
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+    #menu {
+        display: flex;
+    }
+    #menu > li {
+        padding-left: 1rem;
+    }
+    .nav-toggle-label{
+        display: none;
+    }
+    #logo{
+        font-size: 280%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+    /*main content*/
+    main{
+        /*push main content down to accommodate larger header*/
+        margin-top: 79px;
+    }
+    
+}
+
 
 /*For medium screen size 950px and down*/
 @media screen and (max-width: 800px){
