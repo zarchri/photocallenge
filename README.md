@@ -333,27 +333,27 @@ All content are written from my self
 
 #homepage
 
-[women with camera](https://www.pexels.com/sv-se/foto/stad-hus-vatten-byggnader-586687/)
+[women with camera](docs/readme_images/cameragirl.webp)
 
 
 
 #gallery 
 
-[icebear ](https://www.pexels.com/sv-se/foto/rovdjur-djurfotografi-svartvit-grongoling-598966/)
+[icebear ](docs/readme_images/icebear.jpg)
 
-[seal ](https://www.pexels.com/sv-se/foto/23087/)
+[seal ](docs/readme_images/pexels-skitterphoto-23087.jpg)
 
-[teenagergirl ](https://www.pexels.com/sv-se/foto)
+[teenagergirl ](docs/readme_images/teenagergirl.jpg)
 
-[africawoman ](https://www.pexels.com/sv-se/foto/svartvitt-mode-person-kvinna-2469823/)
+[africawoman ](docs/readme_images/africangirl.png)
 
-[boat ](https://www.pexels.com/sv-se/foto/stad-hus-vatten-byggnader-586687/)
+[boat ](docs/readme_images/pexels-david-bartus-586687.webp)
 
 
 
 
 #Signup page
-[group](https://www.pexels.com/sv-se/foto/stad-hus-vatten-byggnader-586687/)
+[group](docs/readme_images/group-photo.jpg)
 ### Acknowledgments
 
 I would like to acknowledge the following people:
