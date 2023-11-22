@@ -33,14 +33,14 @@ body{
 /*header*/
 header{
     background-color: black;
-    padding: 20px;
+    padding: 0 1rem;
     position: fixed;
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px #C0C0C0;
     display: flex;
     justify-content:space-between;
-    align-items: center;
+    align-items: baseline;
 }
 header a {
     text-decoration: none;
@@ -55,7 +55,7 @@ h1{
 #menu{
     font-size: 110%;
     letter-spacing: 4px;
-    text-align: right;
+    list-style-type: none;
     
     
 }
@@ -63,9 +63,9 @@ h1{
     line-height: 75px;
 }
 #menu li {
-    float: right;
-     margin-right: 30px;
-     list-style-type: none;
+    
+     margin-bottom: 1em;
+     
 }
 #menu a{
     text-decoration: none;
@@ -124,7 +124,7 @@ main{
 #cameragirl{
     height: 500px;
     width: 100%;
-    background: url("../images/cameragirl.webp") no-repeat center center/cover;
+    background: url("../images/pexels-wilson-vitorino-1993689.jpg") no-repeat center center/cover;
     /*animates zoom effect on loading pages*/
     animation-name: cameragirl-zoom;
     animation-duration: 5s;
@@ -282,7 +282,7 @@ transform: scale(1.1);
         border-bottom: 1px solid #ffffff;
     }
     #photos{
-        width: 185%;
+        width: 100%;
     }
 }
  
@@ -356,38 +356,43 @@ transform: scale(1.1);
 
   }
   #menu li{
+    display: flex;
+  }
+  .nav-toggle-label{
     display: none;
   }
- 
  
 }
 
 
-/*for larger and smaller screens size from 1200px wide and down*/
+/*for mobiledevices*/
 @media (max-width: 767px) {
     header {
         flex-direction: column;
-        align-items: flex-start;
-        height: auto;
-        height: 15%;
+        align-items: baseline;
+       
     }
     #logo{
         font-size: 25px;
-        width: 90%;
+        width: 100%;
         margin-right: auto;
+        text-align: left;
     }
 
     .nav-toggle-label{
-        margin-left: auto;
+        display: flex;
+        position: fixed;
+        align-items: baseline;
+        
     }
 
     nav {
         margin-top: 10px;
-        height: 10%;
+        
     }
 
     h1{
-        margin-right: auto;
+        margin-right: inherit;
     }
 
     ul {
@@ -408,6 +413,11 @@ transform: scale(1.1);
          float: inline-start;
          
          
+         
+         }
+
+         #menu li{
+            display: none;
          }
          #cover-text h2 {
             margin-right: auto;
