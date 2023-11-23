@@ -102,7 +102,7 @@ h1 {
     padding: 0 1rem;
     box-shadow: 0 2px 2px #C0C0C0;
     display: none;
-    top: 100%;
+  
 
 
 
@@ -114,18 +114,7 @@ h1 {
     padding: 20px;
 }
 
-/*nav-toggle*/
-#nav-toggle:checked~nav {
-    display: block;
-}
 
-#nav-toggle {
-    display: none;
-}
-
-.nav-toggle-label {
-    font-size: 2rem;
-}
 
 /*main*/
 main {
@@ -311,13 +300,26 @@ main {
         border-bottom: 1px solid #ffffff;
     }
 
-    nav {
+    #logo {
+        float:left;
+        font-size: 280%;
+        margin-left: 30px;
+    }
 
-        display: block;
-        position: relative;
-        box-shadow: none;
-        width: fit-content;
-        padding-right: 1rem;
+    #menu {
+        font-size: 110%;
+        letter-spacing: 4px;
+        width: 900px;
+    }
+    
+    #menu, #logo {
+        line-height: 75px;
+    }
+    
+    #menu li {
+        float: right;
+        list-style-type: none;
+        margin-right: 30px;
     }
 
     #photos {
