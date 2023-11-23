@@ -417,7 +417,7 @@ li {
 
     #logo {
         font-size: 25px;
-        width: 100%;
+        width: 80%;
         margin-left: auto;
         text-align: left;
         float: left;
@@ -428,6 +428,7 @@ li {
         position: fixed;
         align-items: baseline;
         margin-right: auto;
+        right: 0px
 
 
     }
