@@ -1,7 +1,7 @@
 Photogallery - Testing
 Photogallery on a variety of screen sizes
 
-Visit the deployed site:[Photogallery] (https://ui.dev/amiresponsive?url=https://8000-zarchri-photocallenge-m87xix7nlm4.ws-eu106.gitpod.io/index.html)
+Visit the deployed site: [Photochallenge](https://github.com/zarchri/photocallenge/actions/runs/6916105787)
 
 CONTENTS
 AUTOMATED TESTING
