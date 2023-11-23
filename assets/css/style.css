@@ -311,48 +311,8 @@ main {
         border-bottom: 1px solid #ffffff;
     }
 
-    #photos {
-        width: 100%;
-    }
-}
-
-/* Media query for tablet-sized devices */
-@media (max-width: 1024px) {
-    header {
-        flex-direction: row;
-        align-items: center;
-    }
-
-    h1 {
-        margin-right: auto;
-        /* Align title to the left */
-    }
-
     nav {
-        margin-left: auto;
-        /* Align menu to the right */
-    }
 
-
-}
-
-ul {
-    padding: 0;
-    display: flex;
-    justify-content: flex-end;
-}
-
-li {
-    list-style: none;
-    margin-left: 20px;
-    /* Adjust space between menu items */
-}
-
-/*media query: tablets and larger(768 px and up)*/
-@media screen and (min-width: 768px) {
-
-    /*header*/
-    nav {
         display: block;
         position: relative;
         box-shadow: none;
@@ -360,105 +320,19 @@ li {
         padding-right: 1rem;
     }
 
-    #menu {
-        display: flex;
-    }
-
-    #menu>li {
-        padding-left: 1rem;
-    }
-
-
-    #logo {
-        font-size: 280%;
-        line-height: 75px;
-        margin: 0 0.5rem;
-    }
-
-    /*main content*/
-    main {
-        /*push main content down to accommodate larger header*/
-        margin-top: 79px;
-    }
-
-}
-
-
-/*For medium screen size 950px and down*/
-@media screen and (max-width: 800px) {
     #photos {
-        column-count: 3;
         width: 100%;
-
-
-    }
-
-    #menu li {
-        display: flex;
-    }
-
-
-
-}
-
-
-/*for mobiledevices*/
-@media (max-width: 767px) {
-    header {
-        flex-direction: column;
-        align-items: baseline;
-
-    }
-
-    #logo {
-        font-size: 25px;
-        width: 80%;
-        margin-left: auto;
-        text-align: left;
-        float: left;
-    }
-
-
-
-    nav {
-        margin-top: 10px;
-
-    }
-
-    h1 {
-        margin-right: inherit;
-    }
-
-    ul {
-        padding: 0;
-        display: flex;
-        list-style: none;
-    }
-
-    li {
-        margin-left: 20px;
-    }
-
-    menu {
-        margin-left: auto;
-    }
-
-   div #cover-text,
-    #cover-text h2 {
-        font-size: 16px;
-        float: inline-start;
-
-
-
-
-    }
-
-    #menu li {
-        display: none;
-    }
-
-    #cover-text h2 {
-        margin-right: auto;
-
     }
 }
+
+
+@media screen and (max-width: 670px) {
+    #menu a :hover {
+        border-bottom: 1px solid #ffffff;
+    }
+
+    #photos {
+        width: 100%;
+    }
+}
+
