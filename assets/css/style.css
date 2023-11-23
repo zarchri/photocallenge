@@ -60,59 +60,8 @@ h1 {
     color: #5C8374;
 }
 
-#menu {
-    font-size: 110%;
-    letter-spacing: 4px;
-    list-style-type: none;
 
 
-}
-
-#menu,
-#logo {
-    line-height: 75px;
-}
-
-#menu li {
-
-    margin-bottom: 1em;
-
-}
-
-#menu a {
-    text-decoration: none;
-    color: #5C8374;
-}
-
-
-#menu a :hover {
-    border-bottom: 1px solid #5C8374;
-}
-
-.active {
-    border-bottom: 1px solid #5C8374;
-}
-
-/*navbar styles with dropdown toggle*/
-.nav {
-    position: absolute;
-    background-color: #000000;
-    width: 100%;
-    left: 0;
-    padding: 0 1rem;
-    box-shadow: 0 2px 2px #C0C0C0;
-    display: none;
-  
-
-
-
-}
-
-.nav li {
-
-    font-size: 20px;
-    padding: 20px;
-}
 
 
 
@@ -295,27 +244,29 @@ main {
 /*media queries*/
 
 /*larger devices (laptops and desktop, 992px and up)*/
-@media screen and (min-width: 992px) {
+@media screen and (max-width: 1200px) {
     #menu a :hover {
         border-bottom: 1px solid #ffffff;
     }
 
     #logo {
-        float:left;
+        float: left;
         font-size: 280%;
         margin-left: 30px;
+
     }
 
     #menu {
         font-size: 110%;
         letter-spacing: 4px;
-        width: 900px;
+
     }
-    
-    #menu, #logo {
+
+    #menu,
+    #logo {
         line-height: 75px;
     }
-    
+
     #menu li {
         float: right;
         list-style-type: none;
@@ -324,17 +275,50 @@ main {
 
     #photos {
         width: 100%;
+        column-count: 3;
     }
 }
 
 
-@media screen and (max-width: 670px) {
+
+@media screen and (max-width: 757px) {
     #menu a :hover {
         border-bottom: 1px solid #ffffff;
     }
 
     #photos {
         width: 100%;
+        column-count: 2;
     }
-}
 
+
+
+
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+        top: 0px;
+    }
+
+    #logo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: smaller;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        float: left;
+    }
+
+
+
+
+
+
+}
