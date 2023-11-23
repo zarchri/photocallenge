@@ -368,9 +368,6 @@ li {
         padding-left: 1rem;
     }
 
-    .nav-toggle-label {
-        display: none;
-    }
 
     #logo {
         font-size: 280%;
@@ -390,7 +387,7 @@ li {
 /*For medium screen size 950px and down*/
 @media screen and (max-width: 800px) {
     #photos {
-        column-count: 2;
+        column-count: 3;
         width: 100%;
 
 
@@ -400,9 +397,7 @@ li {
         display: flex;
     }
 
-    .nav-toggle-label {
-        display: none;
-    }
+
 
 }
 
@@ -423,15 +418,7 @@ li {
         float: left;
     }
 
-    .nav-toggle-label {
-        display: flex;
-        position: fixed;
-        align-items: baseline;
-        margin-right: auto;
-        right: 0px
 
-
-    }
 
     nav {
         margin-top: 10px;
