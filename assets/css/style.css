@@ -1,13 +1,15 @@
 /*goggle fonts import*/
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Oswald:wght@200;300;400;500;600;700&family=Satisfy&display=swap');
+
 /*asterisk wildcard selector to overide default styled added by the browser*/
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+
 /*general styles*/
-body{
+body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -16,8 +18,10 @@ body{
     font-family: 'Lato', sans-serif;
 
 }
+
 /*headings and logo*/
-#h1, h2{
+#h1,
+h2 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -30,8 +34,9 @@ body{
     margin-left: 30px;
     text-align: center;
 }
+
 /*header*/
-header{
+header {
     background-color: black;
     padding: 0 1rem;
     position: fixed;
@@ -39,46 +44,55 @@ header{
     width: 100%;
     box-shadow: 0 2px 2px #C0C0C0;
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: baseline;
 }
+
 header a {
     text-decoration: none;
     color: inherit;
 }
-h1{
+
+h1 {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #5C8374;
 }
-#menu{
+
+#menu {
     font-size: 110%;
     letter-spacing: 4px;
     list-style-type: none;
-    
-    
+
+
 }
-#menu, #logo{
+
+#menu,
+#logo {
     line-height: 75px;
 }
+
 #menu li {
-    
-     margin-bottom: 1em;
-     
+
+    margin-bottom: 1em;
+
 }
-#menu a{
+
+#menu a {
     text-decoration: none;
     color: #5C8374;
 }
 
 
-#menu a :hover{
+#menu a :hover {
     border-bottom: 1px solid #5C8374;
 }
+
 .active {
     border-bottom: 1px solid #5C8374;
 }
+
 /*navbar styles with dropdown toggle*/
 .nav {
     position: absolute;
@@ -89,39 +103,47 @@ h1{
     box-shadow: 0 2px 2px #C0C0C0;
     display: none;
     top: 100%;
-    
-    
+
+
 
 }
+
 .nav li {
-    
+
     font-size: 20px;
     padding: 20px;
 }
+
 /*nav-toggle*/
-#nav-toggle:checked~nav{
+#nav-toggle:checked~nav {
     display: block;
 }
-#nav-toggle{
+
+#nav-toggle {
     display: none;
 }
+
 .nav-toggle-label {
     font-size: 2rem;
 }
+
 /*main*/
-main{
-    
+main {
+
     /*make main element take up any surplus space to push footer down*/
     flex: 1 0 auto;
     margin-top: 47px;
 }
+
 /*group-section*/
-#cover-text, #cover-text h2{
+#cover-text,
+#cover-text h2 {
     color: #fff;
 
 
 }
-#cameragirl{
+
+#cameragirl {
     height: 500px;
     width: 100%;
     background: url("../images/pexels-wilson-vitorino-1993689.jpg") no-repeat center center/cover;
@@ -138,22 +160,24 @@ main{
 
     position: relative;
 }
+
 /*Creates the level of zoom for the cameragirl image*/
 @keyframes cameragirl-zoom {
-    from{
+    from {
         transform: scale(1);
 
 
     }
-    to{
-transform: scale(1.1);
+
+    to {
+        transform: scale(1.1);
     }
-    
+
 }
 
 
 /*footer*/
-#social-networks{
+#social-networks {
     text-align: center;
     padding: 20px 0;
     display: flex;
@@ -161,7 +185,8 @@ transform: scale(1.1);
     list-style-type: none;
 
 }
-#social-networks i{
+
+#social-networks i {
     font-size: 160%;
     padding: 5%;
     color: #3a3a3a;
@@ -179,7 +204,7 @@ transform: scale(1.1);
     padding-top: 40px;
     padding-left: 10px;
 
-    background-color: rgba(192,192,192, .7);
+    background-color: rgba(192, 192, 192, .7);
 
     bottom: 30px;
     right: 150px;
@@ -187,18 +212,19 @@ transform: scale(1.1);
     position: absolute;
 
 }
+
 /*Courses*/
-#courses{
-    
+#courses {
+
     text-align: center;
     color: #C0C0C0;
     background-color: #5C8374;
 }
-   
-   
 
-   
-#welcome{
+
+
+
+#welcome {
     text-align: center;
     margin: 20px 0;
     font-size: 280%;
@@ -210,13 +236,14 @@ transform: scale(1.1);
     column-count: 4;
     column-gap: 0;
 }
-#photos > img{
+
+#photos>img {
     width: 100%;
 }
 
 
 
-    /*formsection*/
+/*formsection*/
 
 .form-section {
     clear: left;
@@ -236,7 +263,7 @@ transform: scale(1.1);
     padding: 30px;
 }
 
-.signup-form > h2 {
+.signup-form>h2 {
     color: #5C8374;
     margin-bottom: 20px;
 }
@@ -250,7 +277,8 @@ transform: scale(1.1);
     border: 3px solid #5C8374;
     border-radius: 5px;
 }
-.fname{
+
+.fname {
     color: black;
 }
 
@@ -274,18 +302,20 @@ transform: scale(1.1);
     background-color: #000000;
     color: #5C8374;
 }
+
 /*media queries*/
 
 /*larger devices (laptops and desktop, 992px and up)*/
-@media  screen and (min-width: 992px){
-    #menu a :hover{
+@media screen and (min-width: 992px) {
+    #menu a :hover {
         border-bottom: 1px solid #ffffff;
     }
-    #photos{
+
+    #photos {
         width: 100%;
     }
 }
- 
+
 /* Media query for tablet-sized devices */
 @media (max-width: 1024px) {
     header {
@@ -294,74 +324,86 @@ transform: scale(1.1);
     }
 
     h1 {
-        margin-right: auto; /* Align title to the left */
+        margin-right: auto;
+        /* Align title to the left */
     }
 
     nav {
-        margin-left: auto; /* Align menu to the right */
+        margin-left: auto;
+        /* Align menu to the right */
     }
 
- 
-    }
-    ul {
-        padding: 0;
-        display: flex;
-        justify-content: flex-end;
-    }
 
-    li {
-        list-style: none;
-        margin-left: 20px; /* Adjust space between menu items */
-    }
+}
 
-    /*media query: tablets and larger(768 px and up)*/
-@media  screen and (min-width: 768px) {
+ul {
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+li {
+    list-style: none;
+    margin-left: 20px;
+    /* Adjust space between menu items */
+}
+
+/*media query: tablets and larger(768 px and up)*/
+@media screen and (min-width: 768px) {
+
     /*header*/
-    nav{
+    nav {
         display: block;
         position: relative;
         box-shadow: none;
         width: fit-content;
         padding-right: 1rem;
     }
+
     #menu {
         display: flex;
     }
-    #menu > li {
+
+    #menu>li {
         padding-left: 1rem;
     }
-    .nav-toggle-label{
+
+    .nav-toggle-label {
         display: none;
     }
-    #logo{
+
+    #logo {
         font-size: 280%;
         line-height: 75px;
         margin: 0 0.5rem;
     }
+
     /*main content*/
-    main{
+    main {
         /*push main content down to accommodate larger header*/
         margin-top: 79px;
     }
-    
+
 }
 
 
 /*For medium screen size 950px and down*/
-@media screen and (max-width: 800px){
-  #photos{
-    column-count: 2;
-    width: 100%;
+@media screen and (max-width: 800px) {
+    #photos {
+        column-count: 2;
+        width: 100%;
 
 
-  }
-  #menu li{
-    display: flex;
-  }
-  .nav-toggle-label{
-    display: none;
-  }
- 
+    }
+
+    #menu li {
+        display: flex;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
 }
 
 
@@ -370,56 +412,65 @@ transform: scale(1.1);
     header {
         flex-direction: column;
         align-items: baseline;
-       
-    }
-    #logo{
-        font-size: 25px;
-        width: 100%;
-        margin-right: auto;
-        text-align: left;
+
     }
 
-    .nav-toggle-label{
+    #logo {
+        font-size: 25px;
+        width: 100%;
+        margin-left: auto;
+        text-align: left;
+        float: left;
+    }
+
+    .nav-toggle-label {
         display: flex;
         position: fixed;
         align-items: baseline;
-        
+        margin-right: auto;
+
+
     }
 
     nav {
         margin-top: 10px;
-        
+
     }
 
-    h1{
+    h1 {
         margin-right: inherit;
     }
 
     ul {
         padding: 0;
+        display: flex;
+        list-style: none;
     }
 
     li {
-        list-style: none;
-        margin-bottom: 10px;
+        margin-left: 20px;
     }
 
-    menu{
-        position: fixed;  
-     }
-    
-     #cover-text, #cover-text h2{
-         font-size: 16px;
-         float: inline-start;
-         
-         
-         
-         }
+    menu {
+        margin-left: auto;
+    }
 
-         #menu li{
-            display: none;
-         }
-         #cover-text h2 {
-            margin-right: auto;
-         }
-        }
+   div #cover-text,
+    #cover-text h2 {
+        font-size: 16px;
+        float: inline-start;
+
+
+
+
+    }
+
+    #menu li {
+        display: none;
+    }
+
+    #cover-text h2 {
+        margin-right: auto;
+
+    }
+}
