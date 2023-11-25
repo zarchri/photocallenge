@@ -18,7 +18,7 @@ body {
 }
 
 /*headings and logo*/
-#h1,
+#h1
  {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
@@ -278,7 +278,7 @@ color: red;
 }
 
 .text-input:hover {
-    border-color: #00000;
+    border-color: black;
 }
 
 .join-button {
@@ -367,7 +367,7 @@ color: red;
     }
 
     #logo {
-        align-items: left;
+        align-items: baseline;
         font-size: 150%;
         margin-right: auto;
  
@@ -404,7 +404,7 @@ color: red;
     }
 
     #logo {
-        align-items: left;
+        align-items: baseline;
         font-size: 150%;
         margin-right: auto;
  
@@ -426,7 +426,7 @@ color: red;
     color: black;
     border-radius: 20px;
     box-shadow: 4px 4px 8px #888888;
-    font-size:5;
+    font-size: 5px;
     margin: 10px 0 0 20px;
 }
 
@@ -496,4 +496,3 @@ color: red;
 .join-button:hover {
     background-color: #eeeeee;
 }
-
