@@ -23,9 +23,7 @@
 
 </head>
 
-<body>
-
-    
+<body class="bodySignup">
     <!--header-->
     <header>
         <a href="index.html">
@@ -40,48 +38,32 @@
         </nav>
     </header>
     <!--main-->
-
-    {
-        background-image: url('assets/images/group-photo.jpg');
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-position: center;}
     <main>
-
 
         <section class="form-section">
             <form id="Signup-form" method="POST" action="https://formdump.codeinstitute.net">
-                <h2><i class="fa-solid fa-heartbeat"></i> Let's signed up for you yourney!</h2>
-                <label for="fname">First Name</label>
-                <input type="text" name="first_name" id="fname" class="text-input" required>
-                <br>
-                <label for="lname">Last Name</label>
-                <input type="text" name="last_name" id="lname" class="text-input" required>
-                <br>
-                <label for="Email">Email Address</label>
-                <input type="email" name="email_address" id="Email" class="text-input" required>
-                <br>
-                <h2>which course do You want sign up you in?</h2>
+                <h2><i class="fa-solid fa-heartbeat"></i> Let's signed up for you journey!</h2>
+                <input type="text" placeholder="First name" name="first_name" id="fname" class="text-input" required>
+                <input type="text" placeholder="Last name" name="last_name" id="lname" class="text-input" required>
+                <input type="email" placeholder="E-mail"name="email_address" id="Email" class="text-input" required>
+             
+                <h2>Which course do YOU want sign up to?</h2>
 
-<form>
+
   <select id="course" name="course">
   <option value="be">Beginner</option>
   <option value="ph">Photoshop</option>
   <option value="usa">USA</option>
   <option value="afr">Afrika</option>
   <option value="ant">Antarktis</option>
-  
   </select>
-<br>
-<br>
-<input class="join-buttion" type="submit" value="Send">
+
+  <input type="submit" value="Join" class="join-button">
 
 </form>
         </section>
 
     </main>
-
-    
 
     <!--footer-->
     <footer>
