@@ -50,35 +50,20 @@ In the background have I chooce  a image with happy teenager with a camera in a 
 
 ![Signup Page Image](docs/readme_images/group-photo.jpg "signup page")
 
-#### The 404 Error Page
-
-The 404 error page displays the sites name as a title. This also acts as a link back to the home page. Within the page container there is a sorry message explaining to the user that there has been an error directing them to the page they were looking for. The user is then given a choice of three buttons to redirect them to other pages on the site, the home page, the games page and the high scores page.
-
-![Error page image](documentation/features/404.png)
-
-#### The 500 Error Page
-
-The 500 error page displays the sites names as a title, which also acts as a link back to the home page. Within the container is an error message that tells the user sorry there seems to be an issue retrieving the quiz data. Two buttons for the home page and the high scores page are below. I did not add the play game button here, as a user will been directed to this page if there is an error calling the API.
-
-![500 Error Page](documentation/features/500.png)
-
 
 
 ## CONTENTS
 
-
-
-
-  * Google Fonts was used to import the chosen fonts for use in the site.
+ * Google Fonts was used to import the chosen fonts for use in the site.
 
 For the Page Title I have used the google font Oswald. I chooce this font because I want A font who clearly Shows the title on the page.
 
 For the body of the page I have used the google font Lato. Lato is a sans-serif font like the mostly website use, it is a clean and easy to read.
 
   * [Imagery]
-  (-In the home page I want use a picture with a person with a camera so the person get intention.
+  (In the home page I want use a picture with a person with a camera so the person get intention.
   -In the gallery I have chosen picture who can interact with the travelgoal we will go to in the different phototravels
-  -In the fornmsection I chooce this picture because I want show the feeling to photographs togheter and get inspiration from each other.)
+  -In the fornm-section I chooce this picture because I want show the feeling to photographs togheter and get inspiration from each other.)
 
   
   * [Features]The website is comprised of a home page, a gallery page, a signup page, a 404 error page & a 500 error page.
@@ -204,6 +189,7 @@ Please visit to [TESTING.md](TESTING.md) file for all testing carried out.
 | 1 | I use code anywhere from the beginning, but it was problem with that programm| I change to gitpod, it works fine|
 | 2 | My image in my homepage was not showing | But i get help with one in slack and the problem was I must clean my cach and then it works |
 | 3 | The favicon was not showing | Tutor support helped me, the problem was my file paths I had miss added assets|
+| 4 | I had problem with the media queries | The problem was that I had for much code with "float"|
 
 ### Known Bugs
 

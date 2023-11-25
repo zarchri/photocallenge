@@ -24,24 +24,30 @@
 </head>
 
 <body>
+
+    
     <!--header-->
     <header>
         <a href="index.html">
             <h1 id="logo">Photochallenge</h1>
         </a>
-        <input type="checkbox" id="nav-toggle" name="nav-toggle">
-        <label for="nav-toggle" class="nav-toggle-label"></label>
-        <i class="fa-solig fa-brand"></i>
         <nav>
             <ul id="menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
                 <li><a href="signup.html" class="active">Signup</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="index.html">Home</a></li>
             </ul>
         </nav>
     </header>
     <!--main-->
+
+    {
+        background-image: url('assets/images/group-photo.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;}
     <main>
+
 
         <section class="form-section">
             <form id="Signup-form" method="POST" action="https://formdump.codeinstitute.net">
@@ -66,10 +72,16 @@
   <option value="ant">Antarktis</option>
   
   </select>
+<br>
+<br>
+<input class="join-buttion" type="submit" value="Send">
+
 </form>
         </section>
 
     </main>
+
+    
 
     <!--footer-->
     <footer>
