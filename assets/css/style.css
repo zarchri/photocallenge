@@ -226,12 +226,12 @@ h1 {
     
     height: 400px;
     width: 500px;
-    background-color: white;
+    background-color: #5C8374;
     padding: 20px;
     color: black;
     border-radius: 20px;
     box-shadow: 4px 4px 8px #888888;
-    font-size:15;
+    font-size:15px;
     margin: 400px 0 0 100px;
 }
 
@@ -278,7 +278,7 @@ color: red;
 }
 
 .text-input:hover {
-    border-color: #5C8374;
+    border-color: #00000;
 }
 
 .join-button {
