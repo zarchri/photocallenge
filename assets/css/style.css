@@ -1,5 +1,5 @@
 /*goggle fonts import*/
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Oswald:wght@200;300;400;500;600;700&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Marhey:wght@300&family=Oswald:wght@200;300;400;500;600;700&family=Satisfy&display=swap');
 
 /*asterisk wildcard selector to overide default styled added by the browser*/
 * {
@@ -20,7 +20,7 @@ body {
 /*headings and logo*/
 #h1
  {
-    font-family: Oswald, sans-serif;
+    font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #ffffff;
@@ -164,7 +164,7 @@ h1 {
 
 #cover-text {
     font-size: 130%;
-    font-family: Oswald, sans-serif;
+    font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
 
@@ -231,12 +231,12 @@ h1 {
     color: black;
     border-radius: 20px;
     box-shadow: 4px 4px 8px #888888;
-    font-size:15px;
+    font-size: 15px;;
     margin: 400px 0 0 100px;
 }
 
 .fa-solid {
-color: red;
+color: black;
 }
 
 
@@ -254,7 +254,7 @@ color: red;
     border-radius: 10px;
     padding: 20px;
     font-size: 20px;
-    box-shadow: 2px 2px 8px #888888;
+    box-shadow: 2px 2px 8px #3a3a3a;
 }
 
 .text-input:focus, #course:focus{
@@ -278,7 +278,7 @@ color: red;
 }
 
 .text-input:hover {
-    border-color: black;
+    border-color: #5C8374;
 }
 
 .join-button {
@@ -426,7 +426,7 @@ color: red;
     color: black;
     border-radius: 20px;
     box-shadow: 4px 4px 8px #888888;
-    font-size: 5px;
+    font-size: 5px;;
     margin: 10px 0 0 20px;
 }
 
@@ -495,5 +495,4 @@ color: red;
 
 .join-button:hover {
     background-color: #eeeeee;
-}
 }
