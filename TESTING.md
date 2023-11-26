@@ -1,29 +1,28 @@
 Photogallery - Testing
 Photogallery on a variety of screen sizes
 
-Visit the deployed site: [Photochallenge](https://github.com/zarchri/photocallenge/actions/runs/6916105787)
+Visit the deployed site: [Photochallenge](https://8000-zarchri-photocallenge-m87xix7nlm4.ws-eu106.gitpod.io/index.html)
 
-CONTENTS
-AUTOMATED TESTING
-W3C Validator
-
-MANUAL TESTING
-Testing User Stories
-Full Testing
-.
 
 AUTOMATED TESTING
-W3C Validator
-W3C was used to validate the HTML on all pages of the website. It was also used to validate the CSS.
+<br>
+[Validator for html and css](https://validator.w3.org/)
+<br>
 
-index.html - 1 warning
 
-gallery.html - passed
+
+index.html - passed.
+
+gallery.html - passed.
 
 signup.html - Passed.
 
-404.html - Passed.
-
-500.html - Passed.
-
-style.css - Passed, no errors found.
+style.css - Passed.
+[W3C Validator](https://jigsaw.w3.org/css-validator/validator) 
+<p>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" />
+    </a>
+</p>

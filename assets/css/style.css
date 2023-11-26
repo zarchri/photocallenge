@@ -108,7 +108,7 @@ h1 {
 #cameragirl {
     height: 500px;
     width: 100%;
-    background: url("../images/pexels-wilson-vitorino-1993689.jpg") no-repeat center center/cover;
+    background: url("../images/girlwithcamera.jpg") no-repeat center center/cover;
     /*animates zoom effect on loading pages*/
     animation-name: cameragirl-zoom;
     animation-duration: 5s;
