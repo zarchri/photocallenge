@@ -1,5 +1,9 @@
 # Photochallenge
 
+
+Challenge yourself in our photo courses
+We have courses both for new beginners and for you who have experience and want to widen your views. We have also a photo course for you who want to learn how you edit. Our photo travel is very popular and the participants get friends and memories for life.
+
 Homepage ![shown on a variety of screen sizes](docs/readme_images/responsive%20website.png "photochallenge")
 
 Gallery ![shown on a variety of screen sizes](docs/readme_images/skärmbildgallery.png "photochallenge")
@@ -7,8 +11,7 @@ Gallery ![shown on a variety of screen sizes](docs/readme_images/skärmbildgalle
 Signup ![shown on a variety of screen sizes](docs/readme_images/skärmbildssignup.png "photochallenge")
 
 
-Challenge yourself in our photo courses
-We have courses both for new beginners and for you who have experience and want to widen your views. We have also a photo course for you who want to learn how you edit. Our photo travel is very popular and the participants get friends and memories for life.
+
 
 ### Features
 
@@ -191,7 +194,7 @@ Please visit to [TESTING.md](TESTING.md) file for all testing carried out.
 
 ### Known Bugs
 
-* In the mobile media queries the cover text on the homepage is not centered, I have also a problem with the header the menu icon is not in the header where I want it would be and the title in the header is centered and not on the left.
+* In the gallery it look good in my prewiev but my deployed link is not looking same. It look there that it is a image too much.
 
  
 
