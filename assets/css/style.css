@@ -62,6 +62,7 @@ h1 {
     font-size: 150%;
     letter-spacing: 4px;
     color: #5C8374;
+    
   
 }
 
@@ -174,7 +175,7 @@ h1 {
     padding-top: 40px;
     padding-left: 10px;
 
-    background-color: rgba(192, 192, 192, .7);
+    background-color: #9da3a1;
 
     bottom: 30px;
     right: 150px;
@@ -187,7 +188,7 @@ h1 {
 #courses {
 
     text-align: center;
-    color: #C0C0C0;
+    color: black;
     background-color: #5C8374;
 }
 
