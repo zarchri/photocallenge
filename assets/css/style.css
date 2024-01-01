@@ -19,7 +19,7 @@ body {
     flex-direction: column;
     /*generic projekt styles*/
     color: #C0C0C0;
-    font-family: 'Lato', sans-serif;
+    font-family: 'oswald', sans-serif;
 
 }
 
@@ -413,7 +413,7 @@ color: black;
         float: left;
         margin-left: 30px;
         line-height: 75px;
-        font-size: 100%;
+        font-size: 75%;
 
     }
 
