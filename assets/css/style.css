@@ -244,6 +244,7 @@ margin-top: auto;
     box-shadow: 4px 4px 8px #303030;
     font-size: 15px;;
     margin: 400px 0 0 100px;
+    
 }
 
 .fa-solid {
@@ -319,7 +320,7 @@ color: black;
 
 /*larger devices (laptops and desktop, 992px and up)*/
 @media screen and (max-width: 1200px) {
-    #menu a :hover {
+    #menu a:hover {
         border-bottom: 1px solid #ffffff;
     }
 
@@ -355,7 +356,7 @@ color: black;
 
 
 @media screen and (max-width: 653px) {
-    #menu a :hover {
+    #menu a:hover {
         border-bottom: 1px solid #ffffff;
     }
 
@@ -396,7 +397,7 @@ color: black;
 
 
 @media screen and (max-width: 420px) {
-    #menu a :hover {
+    #menu a:hover {
         border-bottom: 1px solid #ffffff;
     }
 
@@ -410,12 +411,15 @@ color: black;
     #logo,
     #menu {
         clear: left;
-        float: left;
+        flex: auto;
         margin-left: 30px;
         line-height: 75px;
         font-size: 75%;
+        
 
     }
+
+   
 
     #logo {
         align-items: baseline;
