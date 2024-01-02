@@ -73,7 +73,7 @@ Additional testing was taken by family
 | --- | --- | --- | --- | --- |
 | The Sites title | Link directs the user back to the home page | Clicked title | Home page reloads | Pass |
 | The menu navigation| Direct the user to signup page and the gallery page | Clicked on button | The user directs to the gallery page and the signup page| Pass |
-| The footer| Direct the user to the different socialmedialinks | Clicked on button for socialmedia | The user directs to the different socialmediaplattform| Pass |
+| The footer| Direct the user to the different socialmedialinks | Clicked on button for socialmedia | The user directs to the different socialmedia plattform| Pass |
 
 
 `Gallery-page`
