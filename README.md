@@ -4,11 +4,11 @@
 Challenge yourself in our photo courses
 We have courses both for new beginners and for you who have experience and want to widen your views. We have also a photo course for you who want to learn how you edit. Our photo travel is very popular and the participants get friends and memories for life.
 
-Homepage ![shown on a variety of screen sizes](docs/readme_images/responsive%20website.png "photochallenge")
+Homepage ![shown on a variety of screen sizes](docs/readme_images/Skärmklipp%20responsive.PNG "photochallenge")
 
-Gallery ![shown on a variety of screen sizes](docs/readme_images/skärmbildgallery.png "photochallenge")
+Gallery ![shown on a variety of screen sizes](docs/readme_images/Skärmklipp%20responsive-gallery.PNG "photochallenge")
 
-Signup ![shown on a variety of screen sizes](docs/readme_images/skärmbildssignup.png "photochallenge")
+Signup ![shown on a variety of screen sizes](docs/readme_images/Skärmklipp%20responsive-signup.PNG "photochallenge")
 
 
 
@@ -29,7 +29,7 @@ All Pages on the website are responsive and have:
 
 
 
-In all page you can find in the footer contact information: adress, phone, email and social media links
+In all pages you can find social media links in the footer.
 
 #### The Home Page
 
@@ -51,7 +51,7 @@ The gallery page displays the site's name as a title. This also acts as a link b
 
 The Signup page displays the site's name as a title. This also acts as a link back to the home page. On this page can you sign up for our different courses? In the background, I chose an image of a happy teenager with a camera on a picnic in nature.
 
-![Signup Page Image](docs/readme_images/group-photo.jpg "signup page")
+![Signup Page Image](docs/readme_images/ "signup page")
 
 
 
@@ -140,7 +140,7 @@ The images were taken from [Pexels](https://www.pexels.com/sv-se/sok/people%20%2
 
 
 #Signup page
-![group](docs/readme_images/group-photo.jpg "group")
+![group](docs/readme_images/beach.jpg "group")
 
 
 ## Technologies Used
@@ -177,6 +177,42 @@ Load down images.
 * [Grammarly](https://app.grammarly.com/) for checking the grammar.
 
 
+## Deployment & Local Development
+
+### Deployment
+
+The site is deployed using GitHub Pages - [zarchri/Photo Challenge](https://zarchri.github.io/photocallenge/).
+
+To Deploy the site using GitHub Pages:
+
+1. Login (or signup) to Github.
+2. Go to the repository for this project, [zarchri/Photo Challenge](https://github.com/zarchri/photocallenge).
+3. Click the settings button.
+4. Select pages in the left hand navigation menu.
+5. From the source dropdown select main branch and press save.
+6. The site has now been deployed, please note that this process may take a few minutes before the site goes live.
+
+
+### Local Development
+
+#### How to Fork
+
+To fork the repository:
+
+1. Log in (or sign up) to Github.
+2. Go to the repository for this project, [zarchri/Photo Challenge](https://github.com/zarchri/photocallenge)
+3. Click the Fork button in the top right corner.
+
+#### How to Clone
+
+To clone the repository:
+
+1. Log in (or sign up) to GitHub.
+2. Go to the repository for this project, [zarchri/Photo Challenge](https://github.com/zarchri/photocallenge)
+3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
+5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
+
 - - -
 
 ## Testing
@@ -191,6 +227,7 @@ Please visit to [TESTING.md](TESTING.md) file for all testing carried out.
 | 2 | My image in my homepage was not showing | But I got help with one in Slack the problem was I had cleaned my cach and then it worked|
 | 3 | The favicon was not showing | Tutor support helped me, the problem was the file paths I had miss added assets.|
 | 4 | I had problem with the media queries | The problem was that I had for much code with "float"|
+| 5 | I had problem with the media queries in the signup page, the join button was outside the formsection | Took away the "float"|
 
 ### Known Bugs
 

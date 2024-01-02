@@ -419,6 +419,10 @@ color: black;
 
     }
 
+    #menu li{
+        margin-right: 15px;
+    }
+
    
 
     #logo {
@@ -438,7 +442,7 @@ color: black;
 .form-section {
     
     height: 400px;
-    width: 300px;
+    width: 250px;
     background-color: #5C8374;
     padding: 20px;
     color: black;
