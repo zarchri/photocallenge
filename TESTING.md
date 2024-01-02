@@ -17,6 +17,10 @@ gallery.html - passed.
 
 signup.html - Passed.
 
+thankyou.html - pass
+
+404.html - pass
+
 style.css - Passed.
 [W3C Validator](https://jigsaw.w3.org/css-validator/validator) 
 <p>
